@@ -1,0 +1,27 @@
+{
+    "factor": 8,
+    "recenter": true,
+    "spherify": false,
+    "path_zflat": false,
+
+    "d_input": 3,
+    "n_layers_coarse": 8,
+    "d_filter_coarse": 256,
+    "coarse_samples": 128,
+    "n_layers_fine": 8,
+    "d_filter_fine": 256,
+    "fine_samples": 256,
+    "d_brdf_latent": 2,
+    "n_sg_lobes": 24,
+    "n_sg_condense": 16,
+
+    "jitter": 0.01,
+    "train_batch_size": 1000,
+    "total_steps": 500000,
+    "continue_train": false,
+    "initial_learning_rate": 0.000375,
+    "decay_rate": 0.1,
+    "decay_steps_upto": 250000,
+    "val_interval": 1000,
+    "verbose": 1
+}
